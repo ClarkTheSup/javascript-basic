@@ -209,8 +209,8 @@ describe('for object', () => {
     // * rabbitFunctionPrototype
     // * prototypeOfRabbitFunction
     // * functionPrototype
-    const expectedPrototypeOfRabbitInstance = prototypeOfRabbitInstance;
-    const expectedPrototypeOfRabbitFunction = prototypeOfRabbitFunction;
+    const expectedPrototypeOfRabbitInstance = rabbitFunctionPrototype;
+    const expectedPrototypeOfRabbitFunction = functionPrototype;
     // --end->
 
     expect(prototypeOfRabbitInstance).toBe(expectedPrototypeOfRabbitInstance);
